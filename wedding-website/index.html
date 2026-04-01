@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjana & Sachin - Wedding Celebration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lora:wght@400;500;600&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Music Control Button -->
+    <div class="music-control" id="musicControl" onclick="toggleMusic()">
+        <svg id="musicIcon" viewBox="0 0 24 24">
+            <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+        </svg>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="https://youtu.be/Hh5Pm_TWjmw?si=f6UZP7qBmUCE-N8x" type="audio/mpeg">
+    </audio>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Celebrating Love & Unity</p>
+            <h1 class="hero-names">Anjana & Sachin</h1>
+            <p class="hero-date">May 4th, 2026</p>
+            <p class="hero-quote">"Two souls with but a single thought, two hearts that beat as one"</p>
+        </div>
+        <div class="scroll-indicator">
+            <svg viewBox="0 0 24 24" fill="none">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <h2 class="section-title">Our Big Day Awaits</h2>
+        <p class="section-subtitle">Time until we say "I do"</p>
+        <div class="countdown-timer" id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+    </div>
+
+    <!-- Couple Section -->
+    <section class="couple">
+        <h2 class="section-title">Meet The Couple</h2>
+        <p class="section-subtitle">Two hearts, one beautiful journey</p>
+        <div class="couple-container">
+            <div class="couple-card">
+                <!-- Replace with your bride's photo -->
+                <img src="images/bride.jpg" alt="Anjana" class="couple-image">
+                <h3 class="couple-name">Anjana</h3>
+                <p class="couple-parents">
+                    Beloved Daughter of<br>
+                    <strong>Mr. & Mrs. K.N Vijayaraghavan and Jyothi</strong><br>
+                    Thrissur, Kerala
+                </p>
+            </div>
+            <div class="couple-separator">&</div>
+            <div class="couple-card">
+                <!-- Replace with your groom's photo -->
+                <img src="images/groom.jpg" alt="Sachin" class="couple-image">
+                <h3 class="couple-name">Sachin</h3>
+                <p class="couple-parents">
+                    Beloved Son of<br>
+                    <strong>Mr. & Mrs. Bhaskaran and Prabha Kumari</strong><br>
+                    Palakkad, Kerala
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+    </div>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery">
+        <h2 class="section-title">Our Love Story</h2>
+        <p class="section-subtitle">Cherished moments captured in time</p>
+        <div class="gallery-grid">
+            <!-- Replace with your photos -->
+            <div class="gallery-item">
+                <img src="images/gallery-1.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-2.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-3.jpg" alt="Gallery 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-4.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-5.jpg" alt="Gallery 5">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-6.jpg" alt="Gallery 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+    </div>
+
+    <!-- Events Section -->
+    <section class="events">
+        <h2 class="section-title">Wedding Festivities</h2>
+        <p class="section-subtitle">Be part of our special moments</p>
+        <div class="events-container">
+            <div class="event-card">
+                <div class="event-icon">💍</div>
+                <h3 class="event-title">Thalikettu Ceremony</h3>
+                <p class="event-date">Sunday, May 4th, 2026</p>
+                <p class="event-time">10:00 AM - 11:00 AM</p>
+                <p class="event-venue">Vadakkumnathan Temple</p>
+                <p class="event-address">
+                    Thrissur, Kerala<br>
+                    Sacred union of two souls
+                </p>
+                <a href="https://maps.google.com/?q=Vadakkumnathan+Temple+Thrissur" target="_blank" class="map-link">Get Directions</a>
+            </div>
+
+            <div class="event-card">
+                <div class="event-icon">🎉</div>
+                <h3 class="event-title">Grand Reception</h3>
+                <p class="event-date">Sunday, May 4th, 2026</p>
+                <p class="event-time">After Ceremony</p>
+                <p class="event-venue">Maria Auditorium</p>
+                <p class="event-address">
+                    Kanjani, Kerala<br>
+                    Celebrate with us in joy
+                </p>
+                <a href="https://maps.google.com/?q=Maria+Auditorium+Kanjani" target="_blank" class="map-link">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-names">Anjana & Sachin</div>
+        <p class="footer-text">4th May 2026 • With love and gratitude for your presence</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
