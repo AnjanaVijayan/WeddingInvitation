@@ -1,4 +1,4 @@
-* {
+fv* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 :root {
     --primary-color: #670716;
     --secondary-color: #ff006e;
-    --accent-gold: #ffd60a;
+    --accent-gold: #ffd60a;ffv
     --accent-purple: #7209b7;
     --accent-teal: #6f7af5;
     --text-dark: #1a1a1a;
@@ -144,7 +144,7 @@ body {
 /* Hero Section */
 .hero {
     min-height: 100vh;
-    background: linear-gradient( 135deg, rgba(255, 182, 193, 0.35), rgba(255, 105, 180, 0.25), rgba(255, 255, 255, 0.1) ), url('C:/Users/910003/OneDrive - Royal HaskoningDHV/wedding-website/wedding-website/images/couple.jpg');
+    background: linear-gradient( 135deg, rgba(255, 182, 193, 0.35), rgba(255, 105, 180, 0.25), rgba(255, 255, 255, 0.1) ), url('images/couple.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
